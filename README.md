@@ -5,7 +5,7 @@ The testbed simulates both the primary plant and secondary plant of an electrici
 
 
 # Datasets for stage 1
-24 datasets were collected, include:
+**A total of 24 datasets were collected, include:**
 ## 15 benign behaviours
 * 1 behaviour under normal operation (when no events happen) -- label 0
 * 10 behaviours under emergency operation (when a line-to-line fault happens, related overcurrent protetcion triggered) -- label 201-210
