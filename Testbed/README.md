@@ -15,11 +15,11 @@ Each folder represents one Virtual machine which contains various source codes f
 * CB Trip logics.xlsx: define the trip logics when a short-circuit fault happens.
 
 ## Network topology
-![alt text](https://github.com/kaitoray/Stage1/edit/main/Testbed/Screenshots/Topology.jpg)
+![alt text](https://github.com/kaitoray/Stage1/blob/main/Testbed/Screenshots/Topology.jpg)
 
 ## Sceenshots of the primary plant
-![alt text](https://github.com/kaitoray/Stage1/edit/main/Testbed/Screenshots/Simulink/Main.jpg)
-![alt text](https://github.com/kaitoray/Stage1/edit/main/Testbed/Screenshots/Simulink/CB_control.jpg)
+![alt text](https://github.com/kaitoray/Stage1/blob/main/Testbed/Sceenshots/Simulink/Main.jpg)
+![alt text](https://github.com/kaitoray/Stage1/blob/main/Testbed/Screenshots/Simulink/CB_control.jpg)
 
 ## Sceenshots of the Trsf1 OverCur Prot
-![alt text](https://github.com/kaitoray/Stage1/edit/main/Testbed/Screenshots/PIOC_TRSF1.jpg)
+![alt text](https://github.com/kaitoray/Stage1/blob/main/Testbed/Screenshots/PIOC_TRSF1.jpg)
