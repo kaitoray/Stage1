@@ -1,11 +1,21 @@
-## Source codes explanation 
-* plc.xml: the plc program in OpenPLC written in Ladder Logic
-* interface.cfg: configuration file for interface between Simulink and OpenPLC
-* simlink.cpp: source file of interface between Simulink and OpenPLC
-* run.sh: shell executables file for running all necessary programs
-* src/goose_publisher_*.c: API of GOOSE publisher based on libiec61850
-* src/goose_subscriber_*.c: API of GOOSE subscriber based on libiec61850
-## Executable files explanaiton
-* simlink: executable file of "simlink.cpp"
-* goose_publisher_*: executable file of "goose_publisher_*.c"
-* goose_subscriber_*: executable file of "goose_subscriber_*.c"
+## Contents
+
+Each folder represents one Virtual machine which contains various source codes for different funtionalities. These includes:
+
+* Primary plant: the physical process
+* Trsf1 OverCur Prot: the overcurrent protection IED for transformer1
+* Trsf2 OverCur Prot: the overcurrent protection IED for transformer2
+* FDR OverCur Prot: the overcurrent protection IED for feeders
+* CB_FailProt: the breaker failure protection IED for feeders
+* Switch: Network switch in the process bus
+
+## Also
+
+* Port summary.xlsx: indicates all the UDP port number for communication between Simulink and OpenPLC
+* CB Trip logics.xlsx: define the trip logics when a short-circuit fault happens.
+
+## Network topology
+
+
+## Sceenshots of the primary plant
+
