@@ -5,3 +5,14 @@ The testbed simulates both the primary plant and secondary plant of an electrici
 
 
 # Datasets for stage 1
+24 datasets were collected, include:
+## 15 benign behaviours
+* 1 behaviour under normal operation (when no events happen) -- label 0
+* 10 behaviours under emergency operation (when a line-to-line fault happens, related overcurrent protetcion triggered) -- label 201-210
+* 4 behaviours under emergency operation (when overcurrent protection failed; breaker failure protection triggered) -- label 211-214
+## 9 malicious behaviours
+* 2 false data injection attacks under normal operation -- label 901, 903
+* 2 message modification attacks under normal operation -- label 902, 904
+* 2 false data injection attacks under emergency operation -- label 905, 907
+* 2 message modification attacks under emergency operation -- label 906, 908
+* 1 time delay attack under emergency operation -- label 909
